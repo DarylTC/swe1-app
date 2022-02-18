@@ -1,1 +1,1 @@
-web: gunicorn myproject.wsgi
+web: gunicorn swe1poll.wsgi
