@@ -1,1 +1,1 @@
-web: gunicorn dc4676poll.wsgi
+web: gunicorn swe1app.wsgi
