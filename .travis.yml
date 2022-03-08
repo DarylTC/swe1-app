@@ -15,8 +15,8 @@ before_script:
 
 script:
   - black --check .
-  - flake8 --ignore F401 .
-  - coverage run --source=. manage.py test
+  - flake8 .
+  - coverage run --source=. manage.py test polls
 
 after_script:
   - coveralls
