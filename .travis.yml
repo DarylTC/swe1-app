@@ -15,8 +15,8 @@ before_script:
 
 script:
   - black --check .
-  - flake8 .
-  - coverage run --source=. manage.py test
+  - flake8 --count
+  - coverage run manage.py test
 
 after_script:
   - coveralls
